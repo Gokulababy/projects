@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="https:/wwww.instagram.com" method="get">
+        <fieldset>
+            <legend aligin="center">personal details</legend>
+        <label>enter your first name:</label>
+        <input type="text"name="fname" minlength="10" maxlength="20"><br><br>
+
+        <label for="">enter your last name:</label>
+        <input type="text" name="lname" autofocus><br><br>
+
+        <label for="">enter your email:</label>
+        <input type="email" name="email"  value="abc@gmail.com" readonly><br><br>
+
+        <label for="">enter password:</label>
+        <input type="password" name="password" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend aligin="center">education details</legend>
+
+        <label for="">age:</label>
+        <input type="number" name="age" min="18" max="60"><br><br>
+
+        <label for=""DOB:></label>
+        <input type="date" name="dob">
+        <!--<input type="month">-->
+
+        <label for="">range</label>
+        <input type="range" name="range"><br><br>
+
+        <label for="">upload resume</label>
+        <input type="file" name="file"><br><br>
+
+        <label for="">colour:</label>
+        <input type="color" name="color"><br><br>
+
+        <label for="">gender:</label>
+
+        <input type="radio" name="gender" value="male" id="m">
+        <label for="m">male</label>
+
+        <input type="radio" name="gender" value="female" id="f">
+        <label for="f">female</label>
+
+        <input type="radio" name="gender" value="others" id="o">
+        <label for="o">others</label><br><br>
+        </fieldset>
+
+        <!--checkboxea-->
+        <fieldset>
+            <legend aligin="center">other details</legend>
+    
+       
+
+        <label for="">language:</label>
+        <input type="checkbox" name="lang" value="eng">
+        <label for="e">eng</label>
+
+        <input type="checkbox" name="lang " value="hin">
+        <label for="h">hin</label>
+
+        <input type="checkbox" name="lang " value="tel">
+        <label for="t">tel</label><br><br>
+
+        <input type="hidden" name="deptno" value="10">
+        <input type="tel" name="phno" placeholder="enter your phone number">
+        <input type="url" name="url" placeholder="enter url"><br><br>
+        </fieldset>
+
+        <label for="">forms:</label>
+        <textarea name="" id="" cols="20" rows="10"></textarea><br><br>
+
+        <label for="">place:</label>
+
+        <select name="place" >
+            <option value="ap" disabled>andhra pradesh</option>
+            <option value="tel">telangana</option>
+            <option value="ker">kerala</option>
+        </select><br><br>
+        
+
+
+
+
+        <input type="reset">
+
+      <!----  <input type="submit">-->
+     <!-- <input type="submit" value="register">---->
+     <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
